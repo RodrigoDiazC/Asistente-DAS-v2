@@ -23,5 +23,18 @@ namespace AsistenteDAS
         {
             InitializeComponent();
         }
+
+        //---- Habilita poder mover la ventana
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.ChangedButton == MouseButton.Left)
+                this.DragMove();
+        }
+
+        //--- Guarda la lista cuando se cierra la aplicación
+        private void button_Cerrar_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

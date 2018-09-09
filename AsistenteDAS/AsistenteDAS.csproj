@@ -88,5 +88,38 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Add Filled-50 %281%29.png" />
+    <Resource Include="Images\Add Filled-50 %282%29.png" />
+    <Resource Include="Images\Add Filled-50.png" />
+    <Resource Include="Images\Borrar.png" />
+    <Resource Include="Images\Checkmark-48 %281%29.png" />
+    <Resource Include="Images\Checkmark-48.png" />
+    <Resource Include="Images\Checkmark-96.png" />
+    <Resource Include="Images\Chevron Down-48.png" />
+    <Resource Include="Images\Delete Filled-50 %281%29.png" />
+    <Resource Include="Images\Delete Filled-50.png" />
+    <Resource Include="Images\Delete-25 - Copy.png" />
+    <Resource Include="Images\Delete-25.png" />
+    <Resource Include="Images\Delete-48.png" />
+    <Resource Include="Images\Document Filled-100 %282%29.png" />
+    <Resource Include="Images\Document Filled-100.png" />
+    <Resource Include="Images\Double Down Filled-50.png" />
+    <Resource Include="Images\Double Up Filled-50.png" />
+    <Resource Include="Images\Folder Filled-100 %282%29.png" />
+    <Resource Include="Images\Folder Filled-100.png" />
+    <Resource Include="Images\icons8-secured-letter-filled-50.png" />
+    <Resource Include="Images\icons8-Timer Filled-50.png" />
+    <Resource Include="Images\icons8-Timer-25.png" />
+    <Resource Include="Images\icons8-Timer-50 %281%29.png" />
+    <Resource Include="Images\icons8-Unchecked Circle Filled-50 %281%29.png" />
+    <Resource Include="Images\icons8-Unchecked Circle Filled-50.png" />
+    <Resource Include="Images\Microsoft Excel Filled-50.png" />
+    <Resource Include="Images\Microsoft Excel-25.png" />
+    <Resource Include="Images\Open Folder Filled-50.png" />
+    <Resource Include="Images\Plus-48.png" />
+    <Resource Include="Images\Save Filled-50.png" />
+    <Resource Include="Images\Support Filled-50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
