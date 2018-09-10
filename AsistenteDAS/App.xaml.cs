@@ -12,5 +12,9 @@ namespace AsistenteDAS
     /// </summary>
     public partial class App : Application
     {
+        private void Setter_Collapsed(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

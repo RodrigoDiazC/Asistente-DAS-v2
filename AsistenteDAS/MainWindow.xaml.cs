@@ -22,6 +22,22 @@ namespace AsistenteDAS
         public MainWindow()
         {
             InitializeComponent();
+
+            for (int j = 0; j < 10; j++)
+            {
+                TreeViewItem act = new TreeViewItem();
+                act.Header = new control_Header("Dia" + j.ToString() + " de abril");
+
+                for (int i = 0; i < 3; i++)
+                {
+                    TreeViewItem act2 = new TreeViewItem();
+                    act2.Header = new contro_Actividad();
+                    act.Items.Add(act2);
+                }
+
+                this.tree_Actividades.Items.Add(act);
+            }
+
         }
 
         //---- Habilita poder mover la ventana
