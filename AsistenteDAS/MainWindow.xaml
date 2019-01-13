@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:dd="urn:gong-wpf-dragdrop"
         xmlns:local="clr-namespace:AsistenteDAS"
         mc:Ignorable="d"
         Title="MainWindow" Height="370" Width="315"
@@ -51,7 +52,7 @@
 
         </Grid>
         <ScrollViewer x:Name="scroll_Actividades" VerticalScrollBarVisibility="Auto" Margin="0,30,0,36" UseLayoutRounding="False" BorderThickness="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch">
-            <TreeView x:Name="tree_Actividades"  Background="{x:Null}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+            <TreeView x:Name="tree_Actividades" dd:DragDrop.IsDragSource="True" dd:DragDrop.IsDropTarget="true" dd:DragDrop.DropHandler="{Binding}" ItemsSource="{Binding Collection}" AllowDrop="True" Background="{x:Null}" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" BorderBrush="{x:Null}"/>
         </ScrollViewer>
 
     </Grid>
